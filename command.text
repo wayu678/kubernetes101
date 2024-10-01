@@ -1,0 +1,5 @@
+kubectl apply -f simple-pod.yml
+kubectl get all
+kubectl logs client-pod (name pod)
+delete all --all ลบทั้งหมด
+kubectl delete deployments client-deployment
